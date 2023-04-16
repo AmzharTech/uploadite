@@ -8,4 +8,4 @@ for filename in os.listdir(folder):
             os.remove(file_path)
             print(f'{filename} deleted successfully')
     except Exception as e:
-        print(f'Error deleting {filename}: {e}')
+        print(f'Error in deleting {filename}: {e}')
